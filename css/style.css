@@ -11,7 +11,7 @@ body{
 }
 @media only screen and (max-width: 600px) {
 	#app {
-		background-image: url('mobileback.png');
+		background-image: url('./mobileback.png');
 		background-repeat: repeat-y;
 		background-size: contain;
 		background-position: top center;
@@ -19,7 +19,7 @@ body{
 }
 #header{
 	width: 100%;
-	background-image: url('headerblob.png');
+	background-image: url('../headerblob.png');
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -96,7 +96,7 @@ h2 {
 	flex-wrap: wrap;
 	max-width: 600px;
 	margin: auto;
-	background-image: url('black2.png');
+	background-image: url('/black2.png');
 	background-repeat: no-repeat;
 	background-size: 20%;
 	background-position: left;
@@ -113,7 +113,7 @@ h2 {
 	margin-top: -20px;
 }
 .contact{
-	background-image: url('footerblob.png');
+	background-image: url('../footerblob.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top left;
@@ -130,7 +130,7 @@ h2 {
 	width: 50%;
 }
 .blob-1{
-	background-image: url('blob1.png');
+	background-image: url('../blob1.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -140,7 +140,7 @@ h2 {
 	right: 20%;
 }
 .blob-2{
-	background-image: url('blob2.png');
+	background-image: url('../blob2.png');
 	background-repeat: no-repeat;
 	background-size: 60%;
 }
@@ -150,7 +150,7 @@ h2 {
 	left: 15%;
 }
 .blob-3{
-	background-image: url('blob3.png');
+	background-image: url('../blob3.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -160,7 +160,7 @@ h2 {
 	left: 35%;
 }
 .blob-4{
-	background-image: url('blob4.png');
+	background-image: url('../blob4.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -170,7 +170,7 @@ h2 {
 	left: 30%;
 }
 .blob-5{
-	background-image: url('blob5.png');
+	background-image: url('../blob5.png');
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -230,7 +230,7 @@ h2 {
 }
 #desktop-line-bg{
 	width: 50%;
-	background-image: url('black7.png');
+	background-image: url('../black7.png');
 	background-repeat: no-repeat;
 	background-size: contain;
 }
