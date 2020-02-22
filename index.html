@@ -76,5 +76,290 @@
 		<link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css rel=stylesheet>
 		<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel=stylesheet>
 		<title>Victoria</title>
+		<style type="text/css">
+
+		body{
+			margin:0;
+		}
+		#app {
+		  -webkit-font-smoothing: antialiased;
+		  -moz-osx-font-smoothing: grayscale;
+			background-color: #f8e6d8;
+			font-family: 'Playfair Display', serif;
+			font-size: 1em;
+			text-transform: lowercase;
+		}
+		@media only screen and (max-width: 600px) {
+			#app {
+				background-image: url('/mobileback.png');
+				background-repeat: repeat-y;
+				background-size: contain;
+				background-position: top center;
+			}
+		}
+		#header{
+			width: 100%;
+			background-image: url('/headerblob.png');
+			background-position: top;
+			background-repeat: no-repeat;
+			background-size: contain;
+			text-align: center;
+			padding-bottom: 75px;
+			position:relative;
+		}
+		#header > img{
+			position:absolute;
+			top: 5px;
+			left: 10%;
+		}
+		p{
+			font-size: 1em;
+		}
+		a{
+			color: black;
+			align-self: flex-end;
+		}
+		a:hover{
+			color: black;
+		}
+		a:visited{
+			color: black;
+
+		}
+		.wrap{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			margin: auto;
+			align-items: center;
+		}
+		.flex{
+			display: flex;
+		}
+		.flex-col{
+			flex-direction: column;
+		}
+
+		h1{
+			font-size: 2em;
+			margin-bottom: 10px;
+			margin-top: 10px;
+		}
+		@media only screen and (max-width: 650px) {
+			h1{font-size: 1.5em;}
+		}
+		h2 {
+			font-size: 1.2em;
+			margin: 0;
+		}
+		#top-grid{
+			width: 100%;
+			margin: auto;
+			display: flex;
+			background-repeat: no-repeat;
+			background-size: 50%;
+		}
+		.top-grid-items{
+			width: 50%;
+			min-width: 300px;
+			display: flex;
+			flex-direction: column;
+		}
+		@media only screen and (max-width: 600px) {
+			.top-grid-items{
+				margin: auto;
+				width: 100%;
+			}
+		}
+		#mid-grid{
+			display: flex;
+			flex-wrap: wrap;
+			max-width: 600px;
+			margin: auto;
+			background-image: url('/black2.png');
+			background-repeat: no-repeat;
+			background-size: 20%;
+			background-position: left;
+		}
+		@media only screen and (max-width: 600px) {
+			#mid-grid{
+				flex-direction: column;
+				background:none;
+			}
+		}
+		#footer{
+			display: flex;
+			width: 100%;
+			margin-top: -20px;
+		}
+		.contact{
+			background-image: url('/footerblob.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: top left;
+			flex-grow: 1;
+			justify-content: center;
+			padding-right: 60px;
+		}
+		@media only screen and (max-width: 900px) {
+			.contact{
+				padding-right: 0px;
+			}
+		}
+		.each-item{
+			width: 50%;
+		}
+		.blob-1{
+			background-image: url('/blob1.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.blob-1-text{
+			position: absolute;
+			top: 45%;
+			right: 20%;
+		}
+		.blob-2{
+			background-image: url('/blob2.png');
+			background-repeat: no-repeat;
+			background-size: 60%;
+		}
+		.blob-2-text{
+			position: absolute;
+			bottom: 45%;
+			left: 15%;
+		}
+		.blob-3{
+			background-image: url('/blob3.png');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.blob-3-text{
+			position: absolute;
+			top: 35%;
+			left: 35%;
+		}
+		.blob-4{
+			background-image: url('/blob4.png');
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+		.blob-4-text{
+			position: absolute;
+			top: 30%;
+			left: 30%;
+		}
+		.blob-5{
+			background-image: url('/blob5.png');
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+		@media only screen and (max-width: 900px) {
+			.blob-5{
+				margin-top: 75px;
+				margin-left: 30%;
+			}
+		}
+
+		.blob-5-text{
+			position: absolute;
+			top: 20%;
+			left: 30%;
+		}
+		.blob-fa{
+			position:absolute;
+			left: 30%;
+			top: 10%;
+		}
+		.blob-fa-3{
+			position:absolute;
+			left: 30%;
+		}
+		.blob-fa-2{
+			position:absolute;
+			left: 0%;
+			top: 45%;
+		}
+		.blob-fa-5{
+			position:absolute;
+			top: 30%;
+			right: 0;
+		}
+		.blob-6{
+			width: 300px;
+			height: 200px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.w-100{
+			width: 100%;
+		}
+		.just-cont-end{
+			justify-content: flex-end;
+		}
+		.each-item-inner{
+			width: 280px;
+			height: 300px;
+			position: relative;
+		}
+		.fa{
+			padding: 30px;
+		}
+		.flex-reverse{
+			flex-direction: row-reverse;
+		}
+		#desktop-line-bg{
+			width: 50%;
+			background-image: url('/black7.png');
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+		@media only screen and (max-width: 600px) {
+			#desktop-line-bg{
+				display: none;
+			}
+		}
+		.blob-black-1{
+			height: 400px;
+			width: 300px;
+		}
+		.black-dots{
+			position: absolute;
+			height: 500px;
+			left: -70%;
+			top: -100%;
+		}
+		.black-dots-small{
+			height: 200px;
+			width: 200px;
+		}
+
+		@media only screen and (max-width: 900px) {
+			.desktop-only{display: none;}
+		}
+		@media only screen and (max-width: 600px) {
+			.first-blob{
+				margin: auto;
+			}
+			.blob-5{
+				margin-top: 0;
+				margin-left: 0;
+			}
+			.blob-4{
+				margin-left: 30%;
+			}
+			.each-item{
+				width: 100%;
+			}
+			.loc-blob{
+				justify-content: flex-start;
+			}
+		}
+		@media only screen and (max-width: 500px) {
+			.blob-4{
+				margin: 75px auto 0 auto;
+			}
+		}
+		</style>
 	</head>
 </html>
